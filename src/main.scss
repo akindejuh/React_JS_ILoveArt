@@ -1,0 +1,85 @@
+:root {
+  font-family: 'Ojuju-400', Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --white: #fff;
+  --border: #f6f6f6;
+  --amber: #ffb94e;
+
+  --ojuju-400: 'Ojuju-400';
+  --ojuju-600: 'Ojuju-600';
+  --ojuju-700: 'Ojuju-700';
+
+  --open_sans-400: 'OpenSans-400';
+  --open_sans-600: 'OpenSans-600';
+}
+
+// body {
+//   margin: 0;
+//   display: flex;
+//   place-items: center;
+//   min-width: 1360px;
+//   min-height: 100vh;
+// }
+
+p,
+h1 {
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Ojuju-400';
+  src: url('./fonts/ojuju/Ojuju-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ojuju-600';
+  src: url('./fonts/ojuju/Ojuju-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ojuju-700';
+  src: url('./fonts/ojuju/Ojuju-Bold.ttf') format('truetype');
+  font-weight: Bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans-400';
+  src: url('./fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans-600';
+  src: url('./fonts/open-sans/OpenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,35 @@
+.footer {
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  div {
+    background-color: #8f5600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+    border-radius: 10px;
+
+    h1 {
+      color: white;
+      margin-bottom: 25px;
+      font-family: var(--ojuju-700);
+      font-size: 42px;
+    }
+    
+    p {
+      color: white;
+      font-family: var(--open_sans-600);
+      font-size: 24px;
+    }
+  }
+
+  .follow {
+    font-family: var(--open_sans-600);
+    color: black;
+    font-size: 24px;
+    margin-top: 130px;
+    text-align: center;
+  }
+}

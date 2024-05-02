@@ -1,0 +1,23 @@
+.section_4 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 105px 0px;
+
+  div {
+    h1 {
+      margin-bottom: 15px;
+      font-family: var(--ojuju-700);
+      font-size: 72px;
+    }
+
+    p {
+      font-family: var(--open_sans-400);
+      font-size: 30px;
+      width: 555px;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,51 @@
+.section_1 {
+  margin-top: 45px;
+  margin-bottom: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .image {
+    background: url('../../images/section_1/deanne_go.png') no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 695px;
+    display: flex;
+    flex-direction: column;
+
+    span {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+
+      p {
+        font-size: 62px;
+        font-family: var(--ojuju-600);
+        color: white;
+      }
+
+      .kayra {
+        margin-left: 10px;
+        background-color: var(--amber);
+        color: black;
+      }
+    }
+
+    .username {
+      margin-top: auto;
+      margin-bottom: 35px;
+      color: white;
+      font-family: var(--open_sans-600);
+      font-size: 24px;
+      margin-left: auto;
+      margin-right: auto;
+      cursor: pointer;
+      transition: all 150ms ease-in-out;
+
+      &:hover {
+        opacity: 0.75;
+      }
+    }
+  }
+}
