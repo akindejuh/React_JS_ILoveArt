@@ -21,4 +21,27 @@
     width: 18.75rem;
     height: 25.31rem;
   }
+
+  @media (max-width: 1300px) {
+    /* Media query for screens less than 375px wide */
+    grid-template-columns: 100%; /* Change grid to a single column for mobile layout */
+    row-gap: 20px; /* Add some space between rows for mobile layout */
+
+    .about {
+      margin-right: 0; /* Remove margin for mobile layout */
+
+      h1 {
+        font-size: 36px; /* Adjust font size for mobile layout */
+      }
+
+      p {
+        font-size: 15px; /* Adjust font size for mobile layout */
+      }
+    }
+
+    .img_0 {
+      width: 100%; /* Make image take full width for mobile layout */
+      height: auto; /* Allow image to scale proportionally */
+    }
+  }
 }

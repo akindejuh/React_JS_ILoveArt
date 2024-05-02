@@ -14,4 +14,15 @@
     font-family: var(--open_sans-400);
     font-size: 1.5rem;
   }
+
+  @media (max-width: 1300px) { /* Media query for screens less than 375px wide */
+    width: 72px; /* Reduce width for mobile layout */
+    height: 30px; /* Reduce height for mobile layout */
+    margin-left: 1px;
+    margin-right: 1px;
+
+    h3 {
+      font-size: 8px; /* Adjust font size for mobile layout */
+    }
+  }
 }

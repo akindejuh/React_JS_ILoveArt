@@ -10,7 +10,9 @@ const Section1: FunctionComponent = () => {
           <p className="kayra">{' KAYRA'}</p>
         </span>
 
-        <p className='username'>@deanne_go</p>
+        <a href="http://twitter.com/deanne_go" className="username">
+          @deanne_go
+        </a>
       </div>
     </div>
   );

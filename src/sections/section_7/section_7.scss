@@ -43,4 +43,27 @@
       height: 30rem;
     }
   }
+
+  @media (max-width: 1300px) {
+    display: flex;
+    flex-direction: column;
+
+    .div1 {
+      text-align: start;
+      margin-left: 10px;
+      margin-bottom: 20px;
+    }
+
+    .p {
+      font-size: 36px; /* Adjust font size for mobile layout */
+    }
+
+    .img_1,
+    .img_2,
+    .img_3,
+    .img_4 {
+      width: 100%; /* Make images take full width for mobile layout */
+      height: auto; /* Allow images to scale proportionally */
+    }
+  }
 }

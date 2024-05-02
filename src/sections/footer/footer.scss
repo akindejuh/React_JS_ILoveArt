@@ -24,11 +24,11 @@
       color: white;
       font-family: var(--open_sans-600);
       font-size: 24px;
+      text-align: center;
     }
   }
 
   a {
-    // color: black;
     font-family: var(--open_sans-600);
     font-size: 20px;
     margin-left: auto;
@@ -42,5 +42,31 @@
     font-size: 24px;
     margin-top: 130px;
     text-align: center;
+  }
+
+}
+
+@media (max-width: 1300px) {
+  .footer {
+    div {
+      height: 120px;
+
+      h1 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+
+    a {
+      font-size: 12px;
+    }
+
+    .follow {
+      font-size: 20px;
+      margin-top: 50px;
+    }
   }
 }
