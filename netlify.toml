@@ -1,0 +1,17 @@
+[build]
+  # The directory that contains your Vite project
+  base = "."
+
+  # The command to build your Vite project
+  command = "yarn build"
+
+  # The directory to publish after building your Vite project
+  publish = "dist"
+
+  # If you're using npm instead of yarn, replace "yarn" with "npm"
+  # command = "npm run build"
+
+  # Environment variables you want to expose to the build
+  environment = { NODE_ENV = "production" }
+
+# Specify any other configurations you may need
