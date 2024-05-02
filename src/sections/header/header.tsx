@@ -9,7 +9,7 @@ const Header: FunctionComponent = () => {
 
       <span>
         <img src={kemi_dp} />
-        <p>@kemsdesigns</p>
+        <a href="https://twitter.com/kemsdesigns">@kemsdesigns</a>
       </span>
     </div>
   );

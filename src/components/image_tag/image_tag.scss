@@ -1,0 +1,17 @@
+.image_tag {
+  border: 1px solid black;
+  width: 13.75rem;
+  height: 3.75rem;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  h3 {
+    color: black;
+    font-family: var(--open_sans-400);
+    font-size: 1.5rem;
+  }
+}

@@ -10,7 +10,10 @@ const Footer: FunctionComponent = () => {
           You can do that by simply looking up any one of them on Twitter (X).
         </p>
       </div>
-      <p className='follow'>Follow @kemsdesigns for more</p>
+      <a href="http://twitter.com/Akindeju_Gbenga">
+        Developer: @Akindeju_Gbenga
+      </a>
+      <p className="follow">Follow @kemsdesigns for more</p>
     </div>
   );
 };

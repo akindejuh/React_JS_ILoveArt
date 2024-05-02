@@ -29,8 +29,12 @@
       height: 26px;
     }
 
-    p {
+    a {
       font-size: 14px;
+      color: black;
+      cursor: pointer;
+      font-family: var(--ojuju-600);
+      text-decoration: none;
     }
   }
 }

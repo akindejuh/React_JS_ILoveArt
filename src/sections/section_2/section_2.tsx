@@ -1,6 +1,7 @@
 import { FunctionComponent } from 'react';
 import './section_2.scss';
 import { images } from '../../images/_images';
+import ImageArt from '../../components/image_art/image_art';
 
 const Section2: FunctionComponent = () => {
   return (
@@ -15,12 +16,13 @@ const Section2: FunctionComponent = () => {
           transformations
         </p>
       </div>
-      <img src={images._JessicaLouis_}></img>
-      <img
-        style={{
-          marginLeft: 'auto',
-        }}
-        src={images.robrantula}></img>
+
+      <div className="img_0">
+        <ImageArt image={images._JessicaLouis_} username="@_JessicaLouis_" />
+      </div>
+      <div className="img_0">
+        <ImageArt image={images.robrantula} username="@robrantula" />
+      </div>
     </div>
   );
 };
