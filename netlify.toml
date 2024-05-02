@@ -3,7 +3,7 @@
   base = "."
 
   # The command to build your Vite project
-  command = "yarn build"
+  command = "yarn tsc && vite build"
 
   # The directory to publish after building your Vite project
   publish = "dist"
